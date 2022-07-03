@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        html {
+            height: 100%;
+            font-size: 100%;
+            background: url(assets/Rectangle.png);
+            no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        body {
+            font-family: 'Roboto', Helvetica, sans-serif;
+
+            color: white;
+        }
+
+
+
+        h2 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-left: 45px;
+        }
+
+        #nav,
+        #project,
+        #provider {
+            font-size: 25px;
+        }
+
+        #nav {}
+
+        #project {
+            height: 50px;
+            width: 100px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        #provider {
+
+            height: 50px;
+            width: 180px;
+            background: #0C4A34;
+            border: 2px solid #0C4A34;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        h1 {
+
+
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 54px;
+            line-height: 68px;
+            text-align: center;
+            letter-spacing: 0.54px;
+            weight: 400
+        }
+
+        #directory {
+
+            height: 50px;
+            width: 250px;
+            background: #0C4A34;
+            border: 2px solid #0C4A34;
+            border-radius: 4px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 27px;
+
+        }
+
+        aside {
+            height: 200px;
+            width: 500px;
+            background: #497557;
+            box-shadow: 0px 2px 12px rgba(23, 35, 33, 0.1);
+            border-radius: 2px;
+            text-align: center;
+        }
+
+        #asidep1 {
+            height: 23px;
+            weight: bold;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+
+        }
+
+        #asidep2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 19px;
+        }
+
+        #asidep3 {
+            height: 50px;
+            width: 70px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 24px;
+            text-align: centerc;
+        }
+
+        #ul2 {
+
+            list-style-type: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .container {
+            box-sizing: border-box;
+            display: grid;
+            height: 100vh;
+            width: 100vw;
+            grid-template-columns: 1fr 5fr 2fr;
+            grid-template-rows: ;
+            grid-template-areas: top top top top top top top top;
+
+        }
+
+        .top {
+            grid-area: top;
+        }
+
+        .main {
+            grid-area: main;
+        }
+
+        .aside {
+            grid-area: aside;
+        }
+
+        .ul2 {
+            grid-area: ul2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <header>
+                <h2>Alma</h2>
+                <div class="top">
+                    <nav id="nav">
+                        <ul>
+                            <li>Get Started</li>
+                            <li>How It Works</li>
+                            <li>For Providers</li>
+                            <li>About Alma</li>
+                        </ul>
+                    </nav>
+                    <nav id="project">
+                        <p>Login</p>
+                    </nav>
+                    <nav id="provider">
+                        <p>Find a provider</p>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+                <h1>Alma makes it easy to find high quality, affordable mental quality, affordable mental care.
+                </h1>
+                <p id="directory">Browse our directory</p>
+            </main>
+            <aside class="aside">
+                <p id="asidep1">Subscribe to The Digest
+                </p>
+                <p id="asidep2">Get the latest mental health news in your inbox every other Thursday.</p>
+                <p id="asidep3">Sign Up</p>
+            </aside>
+            <div class="ul2">
+                <ul id="ul2">
+                    <li>Want help? Talk to our</li>
+                    <li>Client Matching team</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+
+</html>
